@@ -1,3 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.java linguist-detectable=true
+*.* linguist-language=Java
+
+Change Java with your target language -Swift in your case-
+
+git add .
+
+git commit -m "Change tagged language from Java to Kotlin"
+
+git push
